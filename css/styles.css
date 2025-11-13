@@ -1,10 +1,5 @@
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+body {
+    font-family: roboto, sans-serif;
 }
 
 .header {
@@ -22,4 +17,52 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1 {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.menu1__list > a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+
+.title__text {
+    font-weight: 400;
+    font-size: 63px;
+    font-style: regular;
+    color: #fff;
+    line-height: 65.63px;
+    margin-left: 40px;
+}
+
+.menu2 {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 30px;
+    padding-left: 190px;
+}
+
+.menu2__list > a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
 }
