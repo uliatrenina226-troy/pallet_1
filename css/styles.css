@@ -82,4 +82,51 @@ body {
     font-weight: 400;
     line-height: 10px;
     text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.text__bottom {
+    width: 420px;
+    height: 300px;
+    margin-left: 700px;
+    padding-left: 120px;
+    padding-top: 145px;
+}
+
+.title__bottom {
+   font-weight: 400;
+   font-size: 11px;
+   text-transform: uppercase;
+   color: #3C3C3C;
+   line-height: 16.25px;
+   margin-bottom: 20px;
+}
+
+.par__bottom {
+    font-weight: 400;
+    font-size: 9px;
+    color: #3C3C3C;
+    line-height: 13px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.str__bottom {
+    display: flex;
+    gap: 100px;
+    margin-left: 30px;
+}
+
+.book {
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #1F1E1E;
+}
+
+.book1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: uppercase;
 }
