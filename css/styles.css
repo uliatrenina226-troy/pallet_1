@@ -1,5 +1,9 @@
 body {
     font-family: roboto, sans-serif;
+    background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    height: ;
 }
 
 .header {
@@ -7,6 +11,7 @@ body {
     height: 800px;
     padding-top: 5px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -90,7 +95,7 @@ body {
     height: 300px;
     margin-left: 700px;
     padding-left: 120px;
-    padding-top: 145px;
+    padding-top: 130px;
 }
 
 .title__bottom {
@@ -99,7 +104,7 @@ body {
    text-transform: uppercase;
    color: #3C3C3C;
    line-height: 16.25px;
-   margin-bottom: 20px;
+   margin-bottom: 15px;
 }
 
 .par__bottom {
@@ -125,8 +130,46 @@ body {
 }
 
 .book1 {
-    color: #fff;
+    color: #000;
     font-weight: 400;
     font-size: 8px;
     text-transform: uppercase;
+}
+
+.main__description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-self: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+.main__achive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.num {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: regular;
+    color: #3C3C3C;
+    line-height: 27.5px;
+}
+
+.text__sale {
+    font-size: 9px;
+    font-weight: 400;
+    color: #3C3C3C;
+    line-height: 13.75px;
+    text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 125px;
+    font-weight: 400;
 }
