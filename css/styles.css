@@ -3,7 +3,7 @@ body {
     background-color: #fff;
     width: 1200px;
     margin: 0 auto;
-    height: ;
+    min-height: 100vh;
 }
 
 .header {
@@ -154,7 +154,7 @@ body {
 .num {
     font-size: 18px;
     font-weight: 400;
-    font-style: regular;
+    font-style: Regular;
     color: #3C3C3C;
     line-height: 27.5px;
 }
