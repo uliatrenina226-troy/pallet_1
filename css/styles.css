@@ -293,3 +293,50 @@ body {
 .zero {
 
 }
+
+.bigwords {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 192px;
+    color: 1F1E1E;
+    line-height: 201px;
+    margin-bottom: 50px;
+}
+
+ .plus {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+    color: #1F1E1E;
+}
+
+.minus {
+    margin-bottom: 50px;
+}
+
+
+.new-btn {
+    width: 127px;
+    height: 37px;
+    background-color: #1F1E1E;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px;
+    margin-left: 537px;
+    font-weight: 400;
+    font-size: 9px;
+    text-transform: uppercase;
+    line-height: 9px;
+    margin-bottom: 60px;
+}
+
+.wrapper__text-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
